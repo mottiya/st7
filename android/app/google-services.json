@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672331875267",
+    "project_id": "st7app",
+    "storage_bucket": "st7app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672331875267:android:e70745981b9f980db0b376",
+        "android_client_info": {
+          "package_name": "com.oflinpo.st7oup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672331875267-rco4p9g453md4amfsrdaqlbb9ur56ft3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACb1evPyqhAUUb3P2Ca0BJybtAsBcV4TE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672331875267-rco4p9g453md4amfsrdaqlbb9ur56ft3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

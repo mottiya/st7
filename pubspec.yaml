@@ -1,0 +1,58 @@
+name: st7
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  shared_preferences: ^2.0.15
+  rxdart: ^0.27.5
+  firebase_core: ^2.1.1
+  cloud_firestore: ^4.0.4
+  firebase_storage: ^11.0.4
+  firebase_crashlytics: ^3.0.9
+  firebase_analytics: ^10.0.6
+  firebase_messaging: ^14.1.1
+  firebase_remote_config: ^3.0.6
+  cached_network_image: ^3.2.2
+  in_app_review: ^2.0.4
+  awesome_notifications: ^0.7.4+1
+  google_fonts: ^3.0.1
+  connectivity_plus: ^3.0.2
+  path_provider: ^2.0.11
+  google_mobile_ads:
+    git:
+      url: https://github.com/SuaMusica/googleads-mobile-flutter.git
+      path: packages/google_mobile_ads
+      ref: develop
+  device_info_plus: ^8.0.0
+  bmprogresshud: ^1.0.1
+  appmetrica_sdk: ^0.0.7+1
+  logger: ^1.1.0
+  flutter_rating_bar: ^4.0.1
+  flutter_markdown: ^0.6.12
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.1.5
+
+flutter_native_splash:
+  color: "#000000"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
